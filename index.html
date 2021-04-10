@@ -1,85 +1,122 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    
-    <meta charset="utf-8">
-    <title>About-Me.com</title>
-    <style>
-      body {
-        margin: 25px;
-      }
-      p {
-        padding: 5px;
-      }
-      a:hover {
-        color: black;
-      }
-      a:visited {
-        color: rgb(194, 98, 8);
-      }
-      .first-place {
-        background-color: rgb(28, 58, 48);
-      }
-      .nav-a-links {
-        margin-right: 5px;
-      }
-      .first-place-div {
-        width: 30%;
-        float: left;
-        height:100%; 
-        margin-right: 3px;
-      }
-      .sm {
-        padding-bottom: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- navigation bar with most important links -->
-    <nav class="nav-bar">
-      <a class="nav-a-links" href="">ABOUT</a>
-      <a class="nav-a-links" href="">HOME</a>
-      <div class="name" style="float: right; padding-right: ;">Omar-Eses</div>
+
+<head>
+  <meta charset="utf-8">
+  <title>About-Me</title>
+  <link rel="stylesheet" href="style.css">
+  <style>    
+  </style>
+  
+</head>
+
+<body>
+  <div class="nav-wrap" id="up">
+    <nav class="left-side">
+      <a href="#wlcm">WELCOME</a> | 
+      <a href="#Sub">Subscribe</a> | 
+      <a href="#lorm">Lorem</a> |
+      <a href="">ABOUT</a>
     </nav>
-    <hr>
-    <!-- important links -->
-    <div class="first-place">
-      <div class="first-place-div">
-        <p>
-          I will be happy if you could follow me on <a href="https://github.com/Omar-Eses">GitHub</a>.
-          I am on my journey of the <a href="https://www.100daysofcode.com/">#100DaysOfCode</a> Challenge.
+    <div class="usr-name">
+      OMAR-ESES
+    </div>
+  </div>
+  <br>
+  <!-- Welcome pargraph -->
+  <div class="frst-row row">
+    <span class="frst-row""> 
+      About-Me is the new LinkedIn for Students who are going to be professional.
+    </span>
+  </div>
+  <hr>
+  <!-- important links -->
+  <div class="scnd-row row">
+    <div class="col-row1">
+      <img class="git-img" src="" alt="github image">
+      <h3>GitHub</h3>
+      <p>
+        I will be happy if you follow me on <a href="https://github.com/Omar-Eses">GitHub</a>.
+        I am on my journey of the <a href="https://www.100daysofcode.com/">#100DaysOfCode</a> Challenge.
+      </p>
+    </div>
+    <div class="col-row1">
+      <!-- Image for the user -->
+      <h3>Image</h3>
+      <img src="img" alt="A pic of user">
+    </div>
+    <div class="col-row1">
+      <h3>Links</h3>
+      <ul type="none">
+        <li><a href="#">Twitter</a>.</li>
+        <li><a href="#">LinkedIn</a>.</li>
+        <li><a href="#">Facebook</a>.</li>
+        <li><a href="#">Instagram</a>.</li>
+      </ul>
+    </div>
+  </div>
+  <!-- another row -->
+  <hr>
 
-        </p>
-      </div>
-      <div class="first-place-div">
-        <ul type="none">
-          <li class="sm"><a href="">Twitter</a></li>
-          <li class="sm"><a href="">LinkedIn</a></li>
-          <li class="sm"><a href="">Facebook</a></li>
-          <li class="sm"><a href="">Instagram</a></li>
-        </ul>          
-      </div>
-      <div class="first-place-div">
-        <a href="" download>CV Download</a>
-      </div>
+  <div class="thrd-row row">
+    <div>
+      <h3 id="wlcm">WELCOME</h3>
     </div>
-    <!-- Media & form tags -->
-    <div class="scnd-box">
-      <div class="video-tag">
-      </div>
-      <div class="form-tag">
-      </div>
+    <div class="col-row2 row">
+      <ul type="none">
+        <li>
+          <video src="videofile.ogg" controls>
+            <source src="https://" type="video/">
+            <source src="https://" type="video/">
+            Your browser down not support the video tag
+          </video>
+        </li>
+      </ul>
     </div>
-    <!-- about me pargraph -->
-    <div class="thrd-box">
-      <div class="abt-me">
-        <img src="" alt="">
-        <p></p>
-      </div>
+    <div class="col-row2">
+      <p>
+        Welcome to the most new form of professional form social media
+        for university student,
+      </p>
     </div>
-    
-    <div class="table"></div>
-    <!-- lorem ipsum -->
+    <a href="#up">Back Up</a>
+  </div>
+  <hr>
+  <div class="subscribe">
+    <form action="x.php">
+      <fieldset>
+        <legend id="Sub">Subscribe</legend>
+        <label for="priv-info">
+          First-Name: <input type="text" name="priv-info" placeholder="First Name" id="f-name">
+          E-Mail: <input type="text" name="priv-info" placeholder="E-Mail" id="E-Mail">
+          <button type="button" onclick="alert('Its esais')">Subscribe</button>
+        </label>
+      </fieldset>
+      <br>
+    </form>
+    <a href="#up">Back Up</a>
+  </div>
+  <hr>
+  <div>
+    <h3 id="lorm">Lorem</h3>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ea deleniti blanditiis laboriosam unde sequi tempora,
+        sapiente mollitia recusandae quia libero illo,
+        quisquam nisi quos ab doloremque sit? Recusandae,
+        laboriosam quae!
+      </p>
+    </div>
+    <div>
+      <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <br><a href="#up">Back Up</a>
+  </div>
+</body>
 
-  </body>
 </html>

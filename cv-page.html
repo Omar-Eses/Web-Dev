@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV-section</title>
+    <style>
+        .rectngl {
+            height: 30px;
+            width: 60%;
+            background-color: rgb(74, 8, 128);
+            margin: 50px;
+            border-radius: 5px;
+            position: relative;
+        }
+        #rect {
+            animation-name: rainbow;
+            animation-duration: 4s;
+        }
+        @keyframes rainbow {
+        0% {
+            background-color: blue;
+            top: 0px;
+        }
+        50% {
+            background-color: green;
+            top: 50px;
+        }
+        100% {
+            background-color: yellow;
+            top: 0px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="cv-div">
+        <p>This is my CV for buisness inquires and a little CSS animation.</p>
+        <a href="audio-files/Esais-Resume.pdf" download>This is my CV</a>
+    </div>
+    <div>
+        <p>
+            you can go back to <a href="index.html">About-Me.net</a>.
+        </p>
+    </div>
+    <div class="rectngl" id="rect" style="border: 0em; text-align: center;">
+        The way to get started is to quit talking and begin doing.
+    </div>
+</body>
+</html>

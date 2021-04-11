@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>About-Me</title>
   <link rel="stylesheet" href="style.css">
-  <style>    
-  </style>
-  
 </head>
-
 <body>
-  <div class="nav-wrap" id="up">
+  <div class="nav-wrap">
     <nav class="left-side">
       <a href="#wlcm">WELCOME</a> | 
       <a href="#Sub">Subscribe</a> | 
       <a href="#lorm">Lorem</a> |
-      <a href="">ABOUT</a>
+      <a href="cv-page.html">ABOUT</a>
     </nav>
     <div class="usr-name">
       OMAR-ESES
@@ -24,8 +19,8 @@
   </div>
   <br>
   <!-- Welcome pargraph -->
-  <div class="frst-row row">
-    <span class="frst-row""> 
+  <div class="frst-row row" id="up">
+    <span class="frst-row" style="color: rgb(44, 40, 40);"> 
       About-Me is the new LinkedIn for Students who are going to be professional.
     </span>
   </div>
@@ -42,32 +37,35 @@
     </div>
     <div class="col-row1">
       <!-- Image for the user -->
-      <h3>Image</h3>
-      <img src="img" alt="A pic of user">
+      <h3 style="margin-bottom: 5px;">Image</h3>
+      <p style="float: left; color: black;" >
+        The co-founder of About-Me, Moh-AbuHamdi.
+      </p>
+      <img width="auto" height="151" src="imgs/abu-hamdi.jpg " alt="A pic of user">
+      <div class="css-anime"></div>
     </div>
     <div class="col-row1">
       <h3>Links</h3>
       <ul type="none">
-        <li><a href="#">Twitter</a>.</li>
-        <li><a href="#">LinkedIn</a>.</li>
-        <li><a href="#">Facebook</a>.</li>
-        <li><a href="#">Instagram</a>.</li>
+        <li><a href="https://twitter.com/EsesOmar1" target="_blank">Twitter</a>.</li>
+        <li><a href="https://www.linkedin.com/in/omar-eses-b68b151a9/" target="_blank">LinkedIn</a>.</li>
+        <li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Facebook</a>.</li>
+        <li><a href="https://www.instagram.com/omar_eses/?hl=en" target="_blank">Instagram</a>.</li>
       </ul>
     </div>
   </div>
   <!-- another row -->
   <hr>
-
-  <div class="thrd-row row">
+  <div class="thrd-row">
     <div>
       <h3 id="wlcm">WELCOME</h3>
     </div>
     <div class="col-row2 row">
       <ul type="none">
         <li>
-          <video src="videofile.ogg" controls>
-            <source src="https://" type="video/">
-            <source src="https://" type="video/">
+          <video width="auto" height="180" src="vids/video1.mp4" controls>
+            <source src="vids/video1.mp4" type="video/mp4">
+            <source src="vids/video1.mp4" type="video/ogg">
             Your browser down not support the video tag
           </video>
         </li>
@@ -75,8 +73,10 @@
     </div>
     <div class="col-row2">
       <p>
-        Welcome to the most new form of professional form social media
-        for university student,
+        Welcome to the most new form of professional form of social media 
+        for university students, where you can discover your potential and 
+        embrace it. Here is the video of the CEO of our Company welcoming 
+        you. feel free to listen
       </p>
     </div>
     <a href="#up">Back Up</a>
@@ -98,25 +98,26 @@
   </div>
   <hr>
   <div>
-    <h3 id="lorm">Lorem</h3>
+    <h3 id="lorm">What is About-Me</h3>
     <div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Ea deleniti blanditiis laboriosam unde sequi tempora,
-        sapiente mollitia recusandae quia libero illo,
-        quisquam nisi quos ab doloremque sit? Recusandae,
-        laboriosam quae!
+        Start changing your lives with About-Me.net, where you
+        can team up with people you don't know, so that you make your 
+        idea become true!
       </p>
     </div>
     <div>
       <audio controls>
-        <source src="horse.ogg" type="audio/ogg">
-        <source src="horse.mp3" type="audio/mpeg">
+        <source src="audio/sonic-pi-aud.wav" type="audio/ogg">
+        <source src="audio/sonic-pi-aud.wav" type="audio/wav">
         Your browser does not support the audio element.
       </audio>
     </div>
     <br><a href="#up">Back Up</a>
   </div>
+  <footer>
+    Thanks for stopping by.
+    <a href="#up">Back Up</a>
+  </footer>
 </body>
-
 </html>

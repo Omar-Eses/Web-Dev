@@ -11,6 +11,9 @@ body {
   a:hover {
     color: aqua;
   }
+  img {
+    float: right;
+  }
   span {
     color: #b85959;
     font: 300 48px / 56px source-sans-pro, sans-serif;
@@ -37,6 +40,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font: source-sans-pro, sans-serif;
+    height: 300px;
     margin: 20px;
     background-color: rgb(197, 197, 197);
   }
@@ -50,4 +55,23 @@ body {
     float: left;
     width: 50%;
     height: 199px;
+  }
+  .css-anime {
+    width: 322px;
+    height: 40px;
+    background-color: rgb(36, 173, 36);
+    bottom: 20px;
+    animation-name: colorful;
+    animation-duration: 10s;
+  }
+  @keyframes colorful {
+    0% {
+      background-color: rgb(58, 91, 122);
+    }
+    50% {
+      background-color: rgb(37, 141, 98);
+    }
+    100% {
+      background-color: rgb(36, 173, 36);
+    }
   }
